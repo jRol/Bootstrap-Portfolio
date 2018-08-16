@@ -107,6 +107,21 @@ body {
     width: 100%;
 }
 
+/* Hover */
+#logo:hover,
+input[type=submit]:hover {
+    background: #5e7f7e;
+}
+
+nav a:hover {
+    color: #5e7f7e;
+}
+
+.color-btn:hover {
+    background: #5e7f7e;
+}
+/* Hover end */
+
 /* Minimal use of media queries, but I had to include these two to account for issues I could not resolve with Bootstrap */
 @media screen and (max-width: 768px) {
 
